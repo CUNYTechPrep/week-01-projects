@@ -10,9 +10,11 @@
     - The 4 cookies should appear one per row on smaller screens
     - ![grid](screenshots/cookie-store-grid.png)
 3. Apply styling to make the page look as follows:
+    - On larger screens:
     - ![larger screens](screenshots/cookie-store-large-screen.png)
+    - On smaller screens:
     - ![smaller screens](screenshots/cookie-store-mobile-screen.png)
-4. Using only bootstrap styles, and not moving any html tags, make the cookie products alternate as follows:
+4. Using only bootstrap styles, and not moving any html tags, make the cookie products alternate as follows on larger screens:
     - ![larger screens](screenshots/cookie-store-large-screen-alt.png)
     - _Hint:_ Look into the push and pull classes 
 
