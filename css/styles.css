@@ -1,1 +1,50 @@
+body{
+  /*background-color: green;*/
+  /*background-image: url(../img/milkbg.jpg);*/
+  /*style="background-image: url(../img/milkbg.jpg);"*/
+}
 
+#bg-image{
+  background-image: url(../img/milkbg.jpg);
+  background-repeat: no-repeat;
+  height: 480px;
+  background-size: cover;
+  background-position:center;
+  /*content: url(../img/milkbg.jpg);*/
+}
+
+#main-title{
+  background-color: rgba(0,0,0,0.6);
+  width: 350px;
+  height: 200px;
+  color: white;
+  padding:35px;
+
+  /*vertical align*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#about{
+  background-color: #ddd;
+  height:250px;
+  padding: 1px;
+  margin-top: 20px;
+}
+#about img{
+  float:left;
+  /*margin-right: 20px;*/
+  padding:25px;
+}
+#about div{
+  margin:25px;
+}
+#about h2{
+  margin: 0, auto;
+}
+#contact{
+  color:white;
+  background-color: rgb(65, 161, 207);
+  padding: 20px;
+}
