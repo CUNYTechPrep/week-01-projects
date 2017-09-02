@@ -1,1 +1,37 @@
+#contact-us {
+	background-color: deepskyblue;
+	color: rgb(255,255,255);
+}
 
+.row {
+padding: 30px;
+
+}
+
+#banner {
+height:400px;
+background: url('../img/milkbg.jpg') no-repeat center #00f;
+background-size:cover;
+position: relative;
+}
+
+.jumbotron {
+	
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translateY(-50%) translateX(-50%);
+	background-color: rgba(0,0,0,0.6);
+	color: #eee;
+}
+
+#about-us{
+	
+	background-color:lightgrey;
+	
+}
+
+#cmonster-img{
+	padding-right: 25px;
+	float: left;
+}
