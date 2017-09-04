@@ -1,46 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="css/styles.css">
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
   <title>Cookie Store</title>
 </head>
 <body>
+<!--NAV BAR-->
+<nav class="navbar navbar-inverse navbar-static-top">
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Page1</a></li>
+    <li role="presentation"><a href="#">Page2</a></li>
+    <li role="presentation"><a href="#">Page3</a></li>
+    <li role="presentation"><a href="#">Page4</a></li>
+    <li role="presentation"><a href="#">Page5</a></li>
+    <li role="presentation"><a href="#">Page6</a></li>
+  </ul>
+</nav>
 
+<div class="container-fluid">
+  <div class="background">
+    <div class="row text-center" style="position: relative;">
+    <div class="col-md-6 col-sm-6 jumbotron" style="background: rgba(0,0,0,0.6); position: absolute; top:0px, bottom:0; left:0; right:0; margin: 0 auto;">
+        <h1 style="font-size: 100px; color: white; font-family: 'Montserrat', sans-serif; ">Cookie Store</h1>
+        <p style="font-size: 30px; color: white;">Buy our awesome cookies. All proceeds go to charity!</p>
+    </div>
+    </div>
+  </div>
 
-<h1>Cookie Store</h1>
+  <div class="row text-center" style="padding-bottom:30px;">
+    <div class="col-sm-12" style="padding-top: 20px">
+      <h2 style="font-weight: bold; font-family: 'Montserrat', sans-serif;">The Cookies</h2>
+    </div>
 
-<p>Buy our awesome cookies. All proceeds go to charity!</p>
+    <div class="col-md-3 col-sm-6">
+      <h3>Thin Mint Cookies</h3>
+      <p>Tasty mint chocolate cookies</p>
+      <img src="img/mint.png" class="img-responsive img-circle center-lock">
+    </div>
 
-<h2>The Cookies</h2>
+    <div class="col-md-3 col-sm-6">
+      <h3>Peanut Butter Cookies</h3>
+      <p>Yummy peanut buttery goodness!</p>
+      <img src="img/peanut.png" class="img-responsive img-circle center-lock">
+    </div>
 
-<h3>Thin Mint Cookies</h3>
-<p>Tasty mint chocolate cookies</p>
-<img src="img/mint.png">
+    <div class="col-md-3 col-sm-6">
+      <h3>Short Bread Cookies</h3>
+      <p>Santa's favorite classic.</p>
+      <img src="img/shortbread.png" class="img-responsive img-circle center-lock">
+    </div>
 
-<h3>Peanut Butter Cookies</h3>
-<p>Yummy peanut buttery goodness!</p>
-<img src="img/peanut.png">
+    <div class="col-md-3 col-sm-6">
+      <h3>Smore's Cookies</h3>
+      <p>Camp fire favorite!</p>
+      <img src="img/smores.png" class="img-responsive img-circle center-lock">
+    </div>
+  </div>
+</div>
 
-<h3>Short Bread Cookies</h3>
-<p>Santa's favorite classic.</p>
-<img src="img/shortbread.png">
+</div>
 
-<h3>Smore's Cookies</h3>
-<p>Camp fire favorite!</p>
-<img src="img/smores.png">
-
-<h2>About us</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<div class="row" id="about-us">
+  <div class="col-md-3 col-sm-3">
+    <img src="img/cmonster.png" class="img-responsive center-lock">
+  </div>
+  <div class="col-md-6 col-sm-6">
+    <h2 class="text-center"style=" font-family: 'Montserrat', sans-serif">About us</h2>
+  </div>
+    <div class="col-md-8 col-sm-8">
+    <p class="row" id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-
-<h2>Contact us</h2>
-<div>
-  100 Broadway Avenue,<br>
-  New York, NY 10001 <br>
-  (212) 555-1234
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+<div class="row text-center" id="contact-us">
+  <h2>Contact us</h2>
+    100 Broadway Avenue,<br>
+    New York, NY 10001 <br>
+    (212) 555-1234
 </div>
 
 </body>

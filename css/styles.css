@@ -1,1 +1,31 @@
+body {
+  overflow-x:hidden
+}
 
+#contact-us {
+  background:lightblue;
+}
+
+.row{
+  padding-bottom: -30px;
+}
+
+.cookies{
+  position:relative;
+}
+#about-us {
+  background: gray;
+}
+
+.background{
+  margin: -20px;
+  background: url("../img/milkbg.jpg") no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 575px;
+}
+
+h3, p {
+  font-family: 'Montserrat', sans-serif;
+}
