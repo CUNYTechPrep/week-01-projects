@@ -1,1 +1,24 @@
+#banner {
+	background-image: url('../img/milkbg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 50em;
+}
 
+#banner p {
+
+}
+
+#about-us {
+	background-color: rgb(211,211,211);
+}
+
+#about-us img {
+	float: left;
+}
+
+#contact-us {
+	background-color: rgb(25,160,207);
+
+}
