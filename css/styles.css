@@ -1,1 +1,29 @@
+#images_border {
+	border-radius: 50%;
+	width: 230px;
+}
 
+.img_banner {
+	background-image: url(../img/milkbg.jpg);
+	position: relative;
+	margin-top: -20px;
+	height: 450px;
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+}
+
+#banner_txt {
+	
+}
+
+#about_us {
+	background-color: #D3D3D3;
+}
+
+#contact_us {
+	background-color: #19A0D0;
+	color: white;
+}
