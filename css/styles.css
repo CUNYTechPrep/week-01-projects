@@ -7,23 +7,73 @@
 	background-image: url(../img/milkbg.jpg);
 	position: relative;
 	margin-top: -20px;
-	height: 450px;
+	height: 600px;
 	width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	color: white;
 }
 
-#banner_txt {
-	
+@media only screen and (min-width: 992px) {
+	#banner_txt {
+		color: white;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		top: 100px;
+		left: 0; 
+		right: 0; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 800px;
+		padding: 100px 170px 100px 170px;
+	}
+
+	#banner_txt h1 {
+		font-size: 64px;
+		font-weight: bold;
+	}
+
+	#banner_txt p {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+	#banner_txt {
+		color: white;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		top: 80px;
+		left: 0; 
+		right: 0; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 500px;
+		padding: 100px 60px 100px 60px;
+	}
+
+	#banner_txt h1 {
+		font-size: 64px;
+		font-weight: bold;
+	}
+
+	#banner_txt p {
+		font-size: 24px;
+	}
+}
+
+#cookies {
+	margin-top: 20px;
+	margin-bottom: 60px;
 }
 
 #about_us {
 	background-color: #D3D3D3;
+	padding: 15px 10px 25px 10px;
 }
 
 #contact_us {
 	background-color: #19A0D0;
+	padding: 15px 0px 0px 15px;
 	color: white;
 }
