@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 #banner {
 	background-image: url('../img/milkbg.jpg');
 	background-repeat: no-repeat;
@@ -6,12 +9,36 @@
 	height: 50em;
 }
 
-#banner p {
+#banner-content {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    color: #FFF;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    padding: 5%;
+}
 
+#banner-content h1 {
+    font-size: 600%;
+    font-weight: bold;
+}
+
+#banner-content p {
+    font-size: 125%;
+}
+
+#cookie-content {
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 #about-us {
-	background-color: rgb(211,211,211);
+    background-color: rgb(211,211,211);
+    font-size: 125%;
 }
 
 #about-us img {
@@ -20,5 +47,15 @@
 
 #contact-us {
 	background-color: rgb(25,160,207);
+    color: #FFF;
+    font-size: 125%;
+}
 
+.title-bold {
+    font-weight: bold;
+}
+
+.cookie-type img {
+    max-width: 100%;
+    max-height: 100%;
 }
