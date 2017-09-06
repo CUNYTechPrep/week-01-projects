@@ -1,47 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cookie Store</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<title>Cookie Store</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
+<div class="container-fluid">
 
+	<div class="row" id = "banner" >
+		<div class="row"></div>
+		<div class="row"></div>
+		<div class="row"></div>
+		<div class="row"></div>
+		<div class="row"></div>
+		<div class="col-md-4 col-md-offset-4" id="cookiestore">
+			<div class = "text-center">
+				<h1>Cookie Store</h1>
+				<p>Buy our awesome cookies. All proceeds go to charity!</p>
+			</div>
+		</div>
+	</div>
+<div class="col-md-offset-5">
+	<h2>The Cookies</h2>
+</div>
+	
+<div id="products">
+	<div class="row">
+	<div class="col-md-offset-4">
+	<div class="col-md-3 push-md-2">	
+		<h3>Thin Mint Cookies</h3>
+		<h4 id="new" class="col-xs-1"><span class="label label-danger">NEW</span></h4>
+		<div class="row"></div>
+		<p>Tasty mint chocolate cookies</p>			
+	</div>
+	<div class="col-md-5 pull-md-2">	
+		<img src="img/mint.png" class="img-circle">	
+	</div>
+	</div>
+	</div>	
 
-<h1>Cookie Store</h1>
+	<div class="row">
+	<div class="col-md-offset-4">
+	<div class="col-md-4 push-md-3">
+		<img src="img/peanut.png" class="img-circle">
+	</div>
+	<div class="col-md-3 pull-md-3">
+		<h3>Peanut Butter Cookies</h3>
+		<p>Yummy peanut buttery goodness!</p>	
+	</div>
+	</div>
+	</div>
 
-<p>Buy our awesome cookies. All proceeds go to charity!</p>
+	<div class="row">
+	<div class= "col-md-offset-4">
+	<div class="col-md-3 push-md-2">
+			<h3>Short Bread Cookies</h3>
+			<p>Santa's favorite classic.</p>
+		</div>
+		<div class="col-md-5 pull-md-2">
+			<img src="img/shortbread.png" class="img-circle">
+		</div>
+		</div>
 
-<h2>The Cookies</h2>
+	</div>
 
-<h3>Thin Mint Cookies</h3>
-<p>Tasty mint chocolate cookies</p>
-<img src="img/mint.png">
+	<div class="row">
+	<div class="col-md-offset-4">
+	<div class="col-md-4 push-md-2">
+		<img src="img/smores.png" class="img-circle">
+	</div>
 
-<h3>Peanut Butter Cookies</h3>
-<p>Yummy peanut buttery goodness!</p>
-<img src="img/peanut.png">
+	<div class="col-md-3 pull-md-3">
+			<h3>Smore's Cookies</h3>
+			<p>Camp fire favorite!</p>
+			
+	</div>
 
-<h3>Short Bread Cookies</h3>
-<p>Santa's favorite classic.</p>
-<img src="img/shortbread.png">
+	</div>
+	</div>
+</div>
+	
 
-<h3>Smore's Cookies</h3>
-<p>Camp fire favorite!</p>
-<img src="img/smores.png">
-
-<h2>About us</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="text-center" id = "about-us">
+			<h2>About us</h2>
+			<img src="img/cmonster.png" id="img">
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 
-<h2>Contact us</h2>
-<div>
-  100 Broadway Avenue,<br>
-  New York, NY 10001 <br>
-  (212) 555-1234
+		</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="text-center" id = contact-us>
+			<h2>Contact us</h2>
+			<div>100 Broadway Avenue,<br>
+  			 	New York, NY 10001 <br>
+  			 	(212) 555-1234
+			</div>
+		</div>
+		
+	</div>
+	</div>
+
 </div>
 
 </body>
 </html>
+
+
