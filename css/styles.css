@@ -31,6 +31,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	min-width: 768px;
 	height: 50em;
 }
 
