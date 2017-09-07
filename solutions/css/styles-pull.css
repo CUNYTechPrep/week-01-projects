@@ -1,0 +1,62 @@
+body {
+  font-size: 20px;
+}
+
+
+#banner {
+  height: 400px;
+  background: url('../img/milkbg.jpg') no-repeat center #00f;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgba(0,0,0,.6);
+  color: #eee;
+}
+
+#products {
+
+}
+
+#about-us {
+  background-color: lightgrey;
+}
+
+#contact-us {
+  background-color: #19a0d0;
+  color: #eee;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+.cookie {
+  text-align: center;
+}
+
+/* md and up screens */
+@media (min-width: 992px) {
+  .cookie {
+    text-align: right;
+  }
+  .alt-cookie {
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+.wlinks {
+  background-color: #333;
+  color: lightgrey;
+  padding-bottom: 0px;
+}

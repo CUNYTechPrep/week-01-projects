@@ -1,0 +1,33 @@
+
+#banner {
+  height: 400px;
+  background: url('../img/milkbg.jpg') no-repeat center #00f;
+  background-size: cover;
+}
+
+#products {
+
+}
+
+#about-us {
+  background-color: lightgrey;
+}
+
+#contact-us {
+  background-color: #19a0d0;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+.wlinks {
+  background-color: #333;
+  color: lightgrey;
+  padding-bottom: 0px;
+}
