@@ -60,3 +60,12 @@
   display: inline-block;
   margin:0;
 }
+
+.cookies{
+  margin-top: 25px;
+}
+
+.my-nav-bar{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
