@@ -1,1 +1,42 @@
 
+#banner {
+	height: 400px;
+	background: url('../img/milkbg.jpg') no-repeat center #00f;
+	background-size: cover;
+
+}
+
+#cookiestore{
+	
+	color: white;
+	font-family: "Georgia";
+	font-size: 15px;
+	background-color: grey;
+	opacity:0.8;
+}
+
+#new{
+	color:red;
+	
+}
+#products{
+	background : lightblue;
+	
+}
+
+#img{
+	float:left;
+}
+#about-us{
+	float: right;
+	background-color: lightgrey;
+}
+
+#contact-us{
+
+	background-color: lightgreen;
+}
+
+.row{
+	padding-bottom: 30px;
+}
