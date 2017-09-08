@@ -16,6 +16,13 @@
 {
 	padding-bottom: 25px; 
 }
+button
+{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	background-color: RED;
+	color: White;
+}
 
 #banner 
 {
@@ -37,15 +44,8 @@
 {
 	size: 15px;
 }
-#about_us
+.about_us
 {
 	background-color: gray;
 }
 
-button
-{
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 15px;
-	background-color: RED;
-	color: White;
-}
