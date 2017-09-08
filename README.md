@@ -16,10 +16,7 @@
     - ![smaller screens](screenshots/cookie-store-mobile-screen.png)
 4. Using only bootstrap styles, and not moving any html tags, make the cookie products alternate as follows on larger screens:
     - ![larger screens](screenshots/cookie-store-large-screen-alt.png)
-    - _Hint:_ Look into the push and pull classes
-    - *Clarifications*
-        + _Don't_ change the order of the 3 main cookie html tags, the `h3`, followed by the `p`, and then the `img` tags. _Remember, we want to keep semantic order._
-        + You can add `div`'s and bootstrap classes as needed, you can wrap any tags in divs as needed, as long as you don't change the order.
+    - _Hint:_ Look into the push and pull classes 
 
 ## Project 2: Build a personal (professional) web page for yourself
 

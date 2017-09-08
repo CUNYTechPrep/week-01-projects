@@ -1,1 +1,71 @@
 
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+
+.banner {
+  background: url("../img/milkbg.jpg") no-repeat center;
+  background-size: cover;
+  margin: 0;
+}
+
+.title{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 10% 25%;
+  padding: 50px 20px 50px 20px ;
+  /*float: none;*/
+  }
+
+.about{
+  background-color: rgb(195, 198, 204);
+    margin-top: 20px;
+}
+
+.contact{
+  background-color: rgb(64, 156, 206);
+  color: white;
+}
+
+
+.cookie{
+  border-radius: 100%;
+  height : auto;
+  margin: auto;
+}
+
+.about, .contact{
+  font-size: 1.4em;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.title  h1{
+  font-size: 80px;
+}
+
+.title p {
+  font-size: 27px;
+}
+
+ .btn{
+  font-weight: 600;
+  padding:1% 2%;
+}
+
+.btn-h3{
+  display: inline-block;
+  margin:0;
+}
+
+.cookies{
+  margin-top: 25px;
+}
+
+.my-nav-bar{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
