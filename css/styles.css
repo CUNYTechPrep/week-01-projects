@@ -33,3 +33,10 @@
 	background-color: rgba(0,0,0,0.5);
 	color: #eee;
 }
+button
+{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	background-color: RED;
+	color: White;
+}
