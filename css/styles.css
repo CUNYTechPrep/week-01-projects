@@ -1,1 +1,39 @@
+#contact-us {
+	background: lightblue;
+}
 
+#about-us {
+	background: lightgray;
+}
+
+#header {
+	background-image: url("../img/milkbg.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#header-text {
+	/*padding: 100px;*/
+	position: relative;
+	top: 125px;
+	display: inline-block;
+}
+
+#about-img {
+	float: left;
+}
+
+#about-text {
+	padding-left: 300px;
+}
+
+.jumbotron {
+	background-color: black;
+	opacity: 0.6;
+	color: white;
+}
+
+.row {
+	padding: 30px;
+}
