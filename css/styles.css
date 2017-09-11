@@ -1,1 +1,72 @@
+/* CSS Style Sheet */
 
+body{
+    
+}
+
+.jumbotron {
+    background-image: url("../img/milkbg.jpg");
+    background-size: cover;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+#title-box {
+    background: rgba(0, 0, 0, 0.5);
+    width: 30%;
+}
+
+#banner {
+    height: 400px;
+    text-align: center;
+    background-position: center;
+}
+
+#banner-text {
+    color: black;
+}
+
+#products {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+#about-us {
+    padding-top: 30px;
+    background-color: lightgray;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#about-items {
+}
+
+#monster {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#contact-us {
+    padding-top: 30px;
+    text-align: center;
+    background-color: #49AAD1;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding-top: 100px;
+}
+p {
+    color: white;
+}
+h2 {
+	
+}
+h3 {
+	
+}
