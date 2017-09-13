@@ -1,1 +1,77 @@
+.nav {
+	color: #ffffff;
+	/*background-color: #39393a;
+	opacity: 0.9;*/
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav span {
+	color: #ffffff;
+	display: inline;
+}
+
+img{
+	width: 100%;
+  }
+
+.headerimg{
+	width: 100%;
+	height: 500px;
+	background: url("../img/milkbg.jpg") no-repeat center;
+	background-size: cover;
+  }
+
+.header{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	top: 50px;
+	height: 400px;
+	font-size: 25px;
+  }
+
+.header h1{
+	padding: 40px 60px 40px 60px;
+	font-size: 4em;
+  }
+
+.title p{
+	font-size: 1.5ex;
+ }
+
+ h3 span {
+ 	font-size: 0.5em;
+ 	color: white;
+ 	background-color: red;
+ 	padding: 5px;
+ }
+
+.container-fluid{
+	padding: 0px;
+	margin-top: 40px;
+  }
+
+.cmonster {
+	max-width: 200px;
+}
+
+.about{
+	height: 250px;
+	padding-top: 20px;
+	background-color: #D3D3D3;
+	font-size: 1.2em;
+}
+
+.contact{
+	height: 150px;
+	background-color: #28a1dd;
+	font-size: 1em;
+	color: #ffffff;
+  }
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
