@@ -17,7 +17,6 @@
 - Single page
     + Inform users about our store
     + Display available cookies for purchase
-    + Create a cart allowing the user to add multiple cookies to their order. (Next week, in frontend JS)
 
 ## 0. Think about content only first
 
@@ -50,9 +49,3 @@
 - the col push and pull classes
 - Media queries
 
-## Additional Week-1 Workshop Tasks
-
-- Add a cookie Carousel
-- Add a Navigation Bar
-- Add buttons and dropdowns for cart functionality
-    + 'Qty' dropdown + 'Add to Cart' buttons
