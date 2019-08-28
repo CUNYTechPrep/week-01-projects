@@ -1,1 +1,46 @@
 
+img{
+	border-radius: 100%;
+  padding-bottom: 20px;
+}
+}
+
+body{
+  background: url("...img/milkbg.jpg") no-repeat center #00f;
+    display: block;
+}
+
+#banner{
+	height: 550px;
+	background: url("...img/milkbg.jpg") no-repeat center #00f;
+	background-size: cover;
+  display: block;
+
+}
+
+#box{
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 650px;
+  height: 400px;
+  background-color: black;
+  opacity: .6;
+	color: white;
+}
+
+#about{
+  height: 400px;
+  background-color: lightgray;
+
+}
+
+.cookie{
+  padding-top: 100px;
+  padding-left: 20px;
+  float:left;
+}
+
+#contact-us{
+  background-color: lightblue;
+}
