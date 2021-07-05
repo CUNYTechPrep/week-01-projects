@@ -1,1 +1,84 @@
+@media (max-width: 992px) {
+	.cookie-text-right, .cookie-text-left {
+		text-align: center;
+	}
 
+	#cookie-content {
+		text-align: center;
+    	margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 992px) {
+	.cookie-text-right {
+		text-align: right;
+	}
+
+	.cookie-text-left {
+		text-align: left;
+	}
+
+	#cookie-content {
+    	margin-bottom: 5px;
+	}
+}
+
+* {
+    box-sizing: border-box;
+}
+#banner {
+	background-image: url('../img/milkbg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-width: 768px;
+	height: 50em;
+}
+
+#banner-content {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    color: #FFF;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    padding: 5%;
+}
+
+#banner-content h1 {
+    font-size: 600%;
+    font-weight: bold;
+}
+
+#banner-content p {
+    font-size: 125%;
+}
+
+
+
+#about-us {
+    background-color: rgb(211,211,211);
+    font-size: 125%;
+}
+
+#about-us img {
+	float: left;
+}
+
+#contact-us {
+	background-color: rgb(25,160,207);
+    color: #FFF;
+    font-size: 125%;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.cookie-type img {
+    max-width: 100%;
+    max-height: 100%;
+}
